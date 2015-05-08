@@ -1,0 +1,305 @@
+/*
+* {	
+	outline: solid 1px red;
+}
+*/
+body {
+	background-color: #b3e3ff;
+	font-family: "Merriweather", serif;
+}
+.main {
+	background-color: white;
+	border-radius: 1em;
+	width: 95%;
+	max-width: 600px;
+	margin: 0 auto;
+}
+.heading {
+	background-color: #12627a;
+	background-image: linear-gradient(#167893, #125e77);
+	color: white;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+}
+.heading h1 {
+	padding-left: 40px;
+	padding-top: 20px;
+	margin-bottom: -25px;
+}
+.heading h4 {
+	color: #b1e3ff;
+	font-size: 0.75em;
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-bottom: 25px;
+	margin-bottom: -15px;
+}
+#main-section h2 {
+	color: #0a5e78;
+	margin-left: -20px;
+	padding-top: 42px;
+	margin-top: 0px;
+	font-size: 1.2em;
+}
+.round-number {
+	background-color: #52a3d4;
+	color: white;
+	border-radius: 25px;
+	border: 6px solid white;
+	float: left;
+	width: 30px;
+	height: 30px;
+	margin-right: 12px;
+	margin-top: -10px;
+	text-align: center;
+}
+.h2-text {
+	display: table;
+	text-align: middle;
+	vertical-align: center;
+}
+fieldset {
+	background-color: #f3f5f5;
+	border: none;
+	border-radius: 0.5em;
+	width: 85%;
+	margin-left: 0px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+	padding-top: 34px;
+}
+fieldset label {
+	color: #595a5a;
+	font-family: "Open Sans", sans-serif;
+	font-size: 0.75em;
+}
+fieldset h6 {
+	color: #9b9c9c;
+	font-family: "Open Sans", sans-serif;
+	margin-left: 40px;
+	margin-bottom: 28px;
+	margin-top: -14px;
+}
+input {
+	width: 95%;
+	height: 44px;
+	margin: 0 auto;
+}
+.input-text {
+	margin-left: 40px;
+	display: block;
+}
+.input-fields {
+	border-radius: 0.5em;
+	height: 30px;
+	width: 82.62%;
+	margin-left: 40px;
+	margin-top: 10px;
+	margin-bottom: 23px;
+	padding-left: 10px;
+	border: none;
+	box-shadow: inset 0 8px 4px -8px rgba(0, 0, 0, 0.4);
+	font-family: "Open Sans", sans-serif;
+	font-size: 0.9em;
+	font-weight: 900;
+}
+.input-fields:required .check {
+	width: 19px;
+	height: 19px;
+	border-radius: 0.5em;
+	background-color: #fafafa;
+	border: none;
+	box-shadow: inset 0 8px 4px -8px rgba(0, 0, 0, 0.4);
+	border-top-left-radius: 0em;
+	border-bottom-left-radius: 0em;
+	display: inline-block;
+	margin-left: 0px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 38px;
+	display: table;
+}
+.input-fields:invalid .check {
+	background: url('../images/sprite.png') -1px -167px no-repeat;
+	width: 19px;
+	height: 19px;
+	border-radius: 0.5em;
+	border: none;
+	box-shadow: inset 0 8px 4px -8px rgba(0, 0, 0, 0.4);
+	border-top-left-radius: 0em;
+	border-bottom-left-radius: 0em;
+	display: inline-block;
+	margin-left: 0px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 38px;
+	display: table;
+}
+.input-fields:valid .check {
+	background: url('../images/sprite.png') -30px -167px no-repeat;
+	width: 19px;
+	height: 19px;
+	border-radius: 0.5em;
+	border: none;
+	box-shadow: inset 0 8px 4px -8px rgba(0, 0, 0, 0.4);
+	border-top-left-radius: 0em;
+	border-bottom-left-radius: 0em;
+	display: inline-block;
+	margin-left: 0px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 38px;
+	display: table;
+}
+.portfolio-address-input {
+	width: 53.77%;
+	border-top-right-radius: 0em;
+	border-bottom-right-radius: 0em;
+}
+.sample {
+	color: #a4a4a4;
+	font-family: "Open Sans", sans-serif;
+	font-size: 0.9em;
+	border-radius: 0.5em;
+	background-color: #fafafa;
+	border: none;
+	border-left: 1px solid #ebebeb;
+	box-shadow: inset 0 8px 4px -8px rgba(0, 0, 0, 0.4);
+	border-top-left-radius: 0em;
+	border-bottom-left-radius: 0em;
+	width: 145px;
+	height: 32px;
+	display: inline-block;
+	margin-left: 0px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 38px;
+	display: table;
+}
+.sample-text {
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	display: table-cell;
+	vertical-align: middle;
+}
+.choose-card {
+	float: left;
+
+}
+.cc-number {
+	width: 43.77%;
+	float: left;
+}
+li {
+	list-style: none;
+	display: inline-block;
+}
+.credit-card {
+	margin-top: 8px;
+	margin-right: 0px;
+	padding-left: 10px;
+}
+
+.credit-card li {
+    display:inline-block;
+	width: 45px;
+	height: 30px;
+    cursor:pointer;
+}
+.credit-card input {
+	position: absolute;
+	left: -9999px;
+}
+
+.credit-card label {
+	display:inline-block;
+	width: 45px;
+	height: 30px;
+    cursor:pointer;
+    text-indent: -9999px;
+}
+
+.amex-pic label {
+	background: url('../images/sprite.png') 0px -40px no-repeat;
+}
+.visa-pic label {
+	background: url('../images/sprite.png') -48px -40px  no-repeat;
+}
+.discover-pic label {
+	background: url('../images/sprite.png') -96px -40px no-repeat;
+}
+.mastercard-pic label {
+	background: url('../images/sprite.png') -144px -40px no-repeat;
+}
+
+.amex-pic input[type="radio"]:checked + label {
+	background: url('../images/sprite.png') 0px 0px no-repeat;
+}
+.visa-pic input[type="radio"]:checked + label {
+	background: url('../images/sprite.png') -48px 0px  no-repeat;
+}
+.discover-pic input[type="radio"]:checked + label {
+	background: url('../images/sprite.png') -96px 0px no-repeat;
+}
+.mastercard-pic input[type="radio"]:checked + label {
+	background: url('../images/sprite.png') -144px 0px no-repeat;
+}
+
+.card-back-container {
+	width:62px;
+	height:32px;
+	border: none;
+	display:inline-block;
+	background-image:url("../images/sprite.png");
+	background-position:0px -124px;
+}
+.card-back-amex {
+	width:70px;
+	height:33px;
+	border: none;
+	display:inline-block;
+	background-image:url("../images/sprite.png");
+	background-position:0px -81px;
+	visibility: hidden;
+}
+.security-field {
+	float: left;
+	display: block;
+	width: 100%;
+}
+.security {
+	width: 15%;
+	margin-top: 0px;
+}
+.expiration-field {
+	float: left;
+	display: block;
+}
+.dropdown-menu {
+	display: block;
+}
+.month-selector {
+	margin-left: 40px;
+}
+.year-selector {
+
+}
+button {
+	font-family: "Merriweather", serif;
+	font-size: 1em;
+	color: white;
+	height: 38px;
+	width: 217px;
+	background-color: #7e9a2c;
+	background-image: linear-gradient(#90a933, #7e9b32);
+	border-radius: 0.5em;
+	border: none;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 28px;
+	display: block;
+}
+.button-container {
+	padding-bottom: 41px;
+}

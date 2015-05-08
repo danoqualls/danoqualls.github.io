@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <title>Whoo! Signup Form</title>
+  
+ 	<link href="assets/css/styles.css" rel="stylesheet">
+ 	<link rel="dns-prefetch" href="//ajax.googleapis.com">
+ 	<link href="http://fonts.googleapis.com/css?family=Merriweather|Open+Sans" rel="stylesheet" type="text/css">
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="cleartype" content="on">
+
+</head>
+<body>
+
+<div class="main">	
+	<div class="heading">
+		<h1>Sign up for Whoo!</h1>
+		<h4>50 projects, 500 images, 10 videos, domain binding, and techical support</h4>
+	</div>
+
+	<div id="main-section"
+		<form id="signupForm" action="/whoo-signup-page" method="post">
+							
+			<h2><span class="round-number">1</span> First, name your portfolio</h2>
+			<fieldset>
+				<div>
+					<label for="portfolio-name" class="input-text">Portfolio name</label>
+					<input type="text" id="portfolio-name" class="input-fields" required />
+					<label class="check"></label>
+				</div>
+				<div>
+					<label for="portfolio-address" id="portfolio-address" class="input-text">Portfolio address</label>
+					<input type="url" id="portfolio-address" class="input-fields portfolio-address-input" required />
+					<span for="portfolio-address" class="sample"><span class="sample-text">.sample.com</span></span>
+				</div>	
+			</fieldset>
+
+				<h2><span class="round-number">2</span> Now, enter your account details</h2>
+				<fieldset>
+				<div>
+					<label for="name" class="input-text">Name</label>
+					<input type="text" id="name" class="input-fields" required />
+					<label class="check"></label>
+				</div>
+				<div>
+					<label for="email-address" id="email-address" class="input-text">Email</label>
+					<input type="email" id="email-address" class="input-fields" required />
+					<label class="check"></label>
+				</div>
+				<h6 for="email-address">NOTE: We'll never share your email, promise.</h6>
+				<div>
+					<label for="password" id="password" class="input-text">Password</label>
+					<input type="password" id="password" class="input-fields" required />
+					<label class="check"></label>
+				</div>
+			</fieldset>
+
+			<div class="h2-text">
+				<h2><span class="round-number">3</span> Finally, enter your payment information</h2>
+			</div>
+			<fieldset>
+				<div>
+					<label for="card-number" class="input-text">Card Number</label>
+					<input type="text" id="card-number" maxlength="16" class="input-fields cc-number" required />
+					<label class="check"></label>
+				</div>
+				<div class="choose-card">
+					<ul class="credit-card">
+						<li class="amex-pic">
+							<input type="radio" id="American-Express" name="cc" value="amex">
+							<label for="American Express">American Express<span></span></label>
+						</li>
+						<li class="visa-pic">
+							<input type="radio" id="Visa" name="cc" value="visa">
+							<label for="Visa">Visa<span></span></label>
+						</li>
+						<li class="discover-pic">
+							<input type="radio" id="Discover" name="cc" value="discover">
+							<label for="Discover">Discover<span></span></label>
+						</li>
+						<li class="mastercard-pic">
+							<input type="radio" id="MasterCard" name="cc" value="mastercard">
+							<label for="MasterCard">MasterCard<span></span></label>
+						</li>
+					</ul>
+				</div>	
+				<div class="security-field">
+					<label for="security-code" id="security-code" class="input-text">Security Code</label>
+					<input type="text" id="security-code" maxlength="4" class="input-fields security" required />
+					<label class="check"></label>
+					<div class="card-back-container">
+						<span class="card-back"></span>
+						<span class="card-back-amex"></span>
+					</div>
+				</div>
+				<div class="expiration-field">
+					<label for="expiration-date" id="expiration-date" class="input-text dropdown-menu">Expiration date</label>
+					<select name="month" class="month-selector" required>
+						<option disabled >Month</option>
+						<option value="01">01 - Jan</option>
+						<option value="02">02 - Feb</option>
+						<option value="03">03 - Mar</option>
+						<option value="04">04 - Apr</option>
+						<option value="05">05 - May</option>
+						<option value="06">06 - Jun</option>
+						<option value="07">07 - Jul</option>
+						<option value="08">08 - Aug</option>
+						<option value="09">09 - Sep</option>
+						<option value="10">10 - Oct</option>
+						<option value="11">11 - Nov</option>
+						<option value="12">12 - Dec</option>
+					</select>
+					<select name="year" class="year-selector" required>
+						<option disabled >Year</option>
+						<option value="2015">2015</option>
+						<option value="2016">2016</option>
+						<option value="2017">2017</option>
+						<option value="2018">2018</option>
+						<option value="2019">2019</option>
+						<option value="06">2020</option>
+					</select>
+				</div>		
+			</fieldset>
+
+			<div class="button-container">
+				<button type="submit">
+					Create your portfolio
+				</button>
+			</div>
+
+
+
+		</form>
+	</div><!--end "main-section"-->
+</div><!--end "foreground"-->
+
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/modernizr.js"></script>
+<script type="text/javascript" src="assets/js/jquery.creditCardValidator.js"></script>
+<script type="text/javascript" src="assets/js/script.js"></script>
+
+</body>
+</html>
