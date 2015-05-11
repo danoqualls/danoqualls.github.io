@@ -1,7 +1,3 @@
- {
-  border: 1px solid black;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: "Muli", sans-serif;
 }
@@ -17,6 +13,10 @@ p {
 
 nav {
   font-family: "Muli", sans-serif;
+}
+
+section {
+  margin-bottom: 200px;
 }
 
 .header-text {
