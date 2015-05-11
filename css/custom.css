@@ -47,6 +47,9 @@ section {
   vertical-align: middle;
 }
 
+.darken {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/1.jpg");
+}
 
 /* This parent can be any width and height */
 .block {
@@ -70,10 +73,11 @@ section {
   display: inline-block;
   vertical-align: middle;
   width: 300px;
+  color: white;
 }
 
 .innovation {
-  background-image: url(../images/clouds.jpg);
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/clouds.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
