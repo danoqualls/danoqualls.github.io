@@ -1,101 +1,134 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dano Qualls Portfolio</title>
-    <link href='http://fonts.googleapis.com/css?family=Muli:100,300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="css/custom.css" />
-    <script src="js/vendor/modernizr.js"></script>
-  </head>
-  <body>
+	<head>
+		<!-- META CHARS -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- begin nav -->
-    <nav class="top-bar" data-topbar>
-      <ul class="title-area">
-        <li class="name">
-          <h1><a href="#">Dano Qualls</a></h1>
-        </li>
-        <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
-      </ul>
-      <section class="top-bar-section">
-        <ul class="right">
-          <li class="active"><a href="#">PORTFOLIO</a></li>
-          <li><a href="#">RESUME</a></li>
-          <li><a href="#">BACKGROUND</a></li>
-          <li><a href="#">CONTACT</a></li>
-        </ul>
-      </section>
-    </nav> <!-- end nav -->
+		<!-- PAGE TITLE -->
+		<title>Fancy Foundation Top Bar</title>
 
-    <!-- begin header -->
-    <div class="row header-row">
-      <div class="medium-6 columns">
-        <img src="images/1.jpg" alt="Profile photo" />
-      </div>
-      <div class="medium-6 columns">
-        <h2 class="header-text header-text-top">innovation strategist</h2>
-        <h2 class="header-text">user experience designer</h2>
-      </div>
-    </div> <!-- end header -->
+		<!-- FONTS -->
+		<link href='http://fonts.googleapis.com/css?family=Muli:100,300' rel='stylesheet' type='text/css'>
 
-    <!-- begin intro -->
-    <div class="row intro-row">
-      <div class="medium-8 medium-offset-2 columns end">
-        <h4 class="intro-top">
-          I design buisness models, products, and experiences
-        </h4>
-        <p>
-          One of the reasons I love innovation and design is that they involve so many things: user research, psychology, information architecture, sketching, market research, branding, and entrepreneurship. Curiosity defines my personal life, too. I love learning, wine, craft beer, hiking, camping, playing cajon, board games, and lawn games.  
-        </p>
-        <p>
-          You can find my resume and story on the background page. Below are selected examples of innovation strategy, user experience design, and writing.
-        </p> 
-      </div>
-    </div> <!-- end intro -->
+	<!-- STYLESHEETS -->
+		<link rel="stylesheet" href="css/app.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/custom.css" />
 
-    <!-- begin innovation wrapper -->
-    <div class="wrapper innovation block">
-          <h1 class="wrapper-text centered">innovation strategy</h1>
-    </div> <!-- end innovation wrapper -->
+		<!-- JAVASCRIPTS -->
+		<script src="bower_components/modernizr/modernizr.js"></script>
+	</head>
+	<body>
 
-    <!-- begin innovation section -->
-    <div class="row">
-      <div class="medium-4 columns">
-        <img src="images/1.jpg" alt="Drink Crate image" />
-        <h2 class="preview-header">Drink Crate</h2>
-        <h4>How might we disrupt the $400B alcohol industry?</h4>
-        <p class="preview-section">Creating the world's first crowd-sourced alcohol branding platform.</p>
-      </div>
-      <div class="medium-4 columns">
-        <img src="images/1.jpg" alt="Puzzle Ball image" />
-        <h2 class="preview-header">Puzzle Ball</h2>
-        <h4>How might we make a learning toy that children want to play with?</h4>
-        <p class="preview-section">Making a new toy for Hasbro.</p>
-      </div>
-      <div class="medium-4 columns">
-        <img src="images/1.jpg" alt="WineKick image" />
-        <h2 class="preview-header">WineKick</h2>
-        <h4>How might we help liquor stores increase sales and loyalty?</h4>
-        <p class="preview-section">Making wine discovery easy for novices with the Wine Sidekick.</p>
-      </div>
-    </div> <!-- end innovation section -->
+		<!-- HEADER SECTION -->
+		<div class="contain-to-grid header-section">
 
-    <!-- begin footer section -->
-    <div class="wrapper footer block centered">
-      <a href="https://www.linkedin.com/in/danoqualls"><img class="pad" src="images/linkedin.png"></a>
-      <a href="mailto:danoqualls@gmail.com"><img class="pad" src="images/email.png"></a>
-      <a href="https://twitter.com/danoqualls"><img class="pad" src="images/twitter.png"></a>
-      <a href="https://github.com/danoqualls"><img class="pad" src="images/github.png"></a>
-      <!-- <img src="images/dribbble.png"> -->       
-    </div>
+			<!-- TOPBAR SECTION -->
+			<nav class="top-bar important-class" data-topbar>
 
-    
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
-  </body>
+				<!-- TITLE AREA & LOGO -->
+				<ul class="title-area">
+					<li class="name">
+						<img src="img/Acme_Colour.png" alt="" id="logo-image">
+
+					</li>
+					<li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
+				</ul> <!-- END TITLE AREA & LOGO -->
+
+				<!-- MENU ITEMS -->
+				<section class="top-bar-section">
+					<ul class="right">
+						<li class="active"><a href="index.php">Home</a></li>
+						<li><a href="blog.php">Blog</a></li>
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li class="has-dropdown">
+							<a href="#">Services</a>
+							<ul class="dropdown">
+								<li><a href="#">Service #1</a></li>
+								<li><a href="#">Service #2</a></li>
+								<li><a href="#">Service #3</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</section> <!-- END MENU ITEMS -->
+			</nav> <!-- END TOPBAR SECTION -->
+		</div> <!-- END HEADER SECTION
+
+		<!-- CONTENT FILL WHEN SCROLL = 0 -->
+		<div class="header-fill"></div>
+
+		<!-- begin header -->
+		    <div class="row header-row">
+		      <div class="medium-6 columns">
+		        <img src="images/1.jpg" alt="Profile photo" />
+		      </div>
+		      <div class="medium-6 columns">
+		        <h2 class="header-text header-text-top">innovation strategist</h2>
+		        <h2 class="header-text">user experience designer</h2>
+		      </div>
+		    </div> <!-- end header -->
+
+		    <!-- begin intro -->
+		    <div class="row intro-row">
+		      <div class="medium-8 medium-offset-2 columns end">
+		        <h4 class="intro-top">
+		          I design buisness models, products, and experiences
+		        </h4>
+		        <p>
+		          One of the reasons I love innovation and design is that they involve so many things: user research, psychology, information architecture, sketching, market research, branding, and entrepreneurship. Curiosity defines my personal life, too. I love learning, wine, craft beer, hiking, camping, playing cajon, board games, and lawn games.  
+		        </p>
+		        <p>
+		          You can find my resume and story on the background page. Below are selected examples of innovation strategy, user experience design, and writing.
+		        </p> 
+		      </div>
+		    </div> <!-- end intro -->
+
+		    <!-- begin innovation wrapper -->
+		    <div class="wrapper innovation block">
+		          <h1 class="wrapper-text centered">innovation strategy</h1>
+		    </div> <!-- end innovation wrapper -->
+
+		    <!-- begin innovation section -->
+		    <div class="row">
+		      <div class="medium-4 columns">
+		        <img src="images/1.jpg" alt="Drink Crate image" />
+		        <h2 class="preview-header">Drink Crate</h2>
+		        <h4>How might we disrupt the $400B alcohol industry?</h4>
+		        <p class="preview-section">Creating the world's first crowd-sourced alcohol branding platform.</p>
+		      </div>
+		      <div class="medium-4 columns">
+		        <img src="images/1.jpg" alt="Puzzle Ball image" />
+		        <h2 class="preview-header">Puzzle Ball</h2>
+		        <h4>How might we make a learning toy that children want to play with?</h4>
+		        <p class="preview-section">Making a new toy for Hasbro.</p>
+		      </div>
+		      <div class="medium-4 columns">
+		        <img src="images/1.jpg" alt="WineKick image" />
+		        <h2 class="preview-header">WineKick</h2>
+		        <h4>How might we help liquor stores increase sales and loyalty?</h4>
+		        <p class="preview-section">Making wine discovery easy for novices with the Wine Sidekick.</p>
+		      </div>
+		    </div> <!-- end innovation section -->
+
+		    <!-- begin footer section -->
+		    <div class="wrapper footer block centered">
+		      <a href="https://www.linkedin.com/in/danoqualls"><img class="pad" src="images/linkedin.png"></a>
+		      <a href="mailto:danoqualls@gmail.com"><img class="pad" src="images/email.png"></a>
+		      <a href="https://twitter.com/danoqualls"><img class="pad" src="images/twitter.png"></a>
+		      <a href="https://github.com/danoqualls"><img class="pad" src="images/github.png"></a>
+		      <!-- <img src="images/dribbble.png"> -->       
+		    </div>
+		 
+
+
+		<!-- JAVASCRIPTS -->
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="bower_components/foundation/js/foundation.min.js"></script>
+		<script src="js/app.js"></script>
+		<!-- OUR JQUERY MAGIC -->
+		<script src="js/init.js"></script>
+	</body>
 </html>
