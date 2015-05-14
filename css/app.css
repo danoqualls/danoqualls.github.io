@@ -5950,7 +5950,7 @@ meta.foundation-mq-topbar {
   color: white;
   padding: 12px 0 12px 0;
   padding-left: 15px;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+/* custom:  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; */
   font-size: 0.8125rem;
   font-weight: normal;
   text-transform: none;
