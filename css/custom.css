@@ -1,7 +1,6 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: "Muli", sans-serif;
 }
-
 p {
   font-family: "Muli", sans-serif;
   line-height: 1.6em;
@@ -10,59 +9,44 @@ p {
   font-style: normal;
   color: #1f1f1f;
 }
-
 nav {
   font-family: "Muli", sans-serif;
-  /*padding-top: 20px;
-  padding-bottom: 65px; */
 }
-
 section {
   margin-bottom: 200px;
 }
-
 .header-text {
   text-align: center;
 }
-
 .header-text-top {
-  margin-top: 40%;
+  margin-top: 40%; 
 }
-
 .header-row {
   margin-top: 50px;
 }
-
 .header-row, .intro-row {
   margin-bottom: 100px;
 }
-
 .intro-top {
   text-align: center;
   margin-bottom: 50px;
 }
-
 .wrapper {
   width: 100%;
 }
-
 .wrapper-text {
   text-align: center;
   vertical-align: middle;
 }
-
 .darken {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/1.jpg");
 }
-
 /* This parent can be any width and height */
 .block {
   text-align: center;
-
   /* May want to do this if there is risk the container may be narrower than the element inside */
   white-space: nowrap;
 }
- 
 /* The ghost, nudged to maintain perfect centering */
 .block:before {
   content: '';
@@ -71,7 +55,6 @@ section {
   vertical-align: middle;
   margin-right: -0.25em; /* Adjusts for spacing */
 }
-
 /* The element to be centered, can also be of any width and height */ 
 .centered {
   display: inline-block;
@@ -79,7 +62,6 @@ section {
   width: 300px;
   color: white;
 }
-
 .innovation {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/clouds.jpg);
   background-repeat: no-repeat;
@@ -92,42 +74,34 @@ section {
   z-index: 0;
   margin-bottom: 100px;
 }
-
 .preview-header {
   text-align: center;
 }
-
 .preview-section {
   margin-bottom: 100px;
 }
-
 .center-image {
   display: block;
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
 }
-
 .wide-text {
   text-align: center;
   margin-bottom: 50px;
 }
-
 .top-bar .name h1 a {
   font-size: 1.2em;
   letter-spacing: 0.1em;
 }
-
 .top-bar-section ul li > a {
   letter-spacing: 0.1em;
   font-size: 0.75em;
 }
-
 .top-bar ul li a:hover {
   color: #9c9999 !important;
   background-color: transparent !important;
 } 
-
 .footer {
   background: black;
   background-repeat: no-repeat;
@@ -139,17 +113,14 @@ section {
   height: 100px;
   z-index: 0;
 }
-
 .pad {
   padding: 0px 5px 0px 5px;
 }
-
 .title-name {
   color: white;
   font-size: 1.75em;
   text-transform: uppercase;
 }
-
 .nav-links {
-  font-family: "Lato", sans-serif;
+  font-family: "Muli", sans-serif;
 }

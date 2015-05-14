@@ -185,7 +185,7 @@ p {
   }
   /* line 177, ../scss/style.scss */
   .top-bar .toggle-topbar.menu-icon a {
-    color: #222;
+/* custom:    color: #222; */
   }
   /* line 179, ../scss/style.scss */
   .top-bar .toggle-topbar.menu-icon a:after {
@@ -198,7 +198,7 @@ p {
   }
   /* line 189, ../scss/style.scss */
   .top-bar .top-bar-section ul {
-    background: #333;
+/* custom:    background: #333; */
   }
   /* line 191, ../scss/style.scss */
   .top-bar .top-bar-section ul li {
@@ -225,7 +225,7 @@ p {
   }
   /* line 212, ../scss/style.scss */
   .top-bar .top-bar-section ul li.active:not(.has-form) a:not(.button) {
-    background: #ef4523;
+/* custom:    background: #ef4523; */
     color: #fff;
     padding: 10px 15px;
     margin-top: 0;

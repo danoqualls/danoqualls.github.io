@@ -221,7 +221,7 @@ select {
 .columns {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem;
-  width: 100%;
+/* custom:  width: 100%; */
   float: left;
 }
 
@@ -1073,7 +1073,7 @@ select {
     left: auto;
   }
 }
-@media only screen and (min-width: 64.063em) {
+@media only screen and (min-width: 31.25em) {
   /* line 157, ../bower_components/foundation/scss/foundation/components/_grid.scss */
   .large-push-0 {
     position: relative;
@@ -6191,7 +6191,7 @@ meta.foundation-mq-topbar {
   display: block;
 }
 
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 43.75em) {
   /* line 431, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar {
     background: #333333;
@@ -6234,7 +6234,7 @@ meta.foundation-mq-topbar {
 
   /* line 452, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .contain-to-grid .top-bar {
-    max-width: 62.5rem;
+/* custom:    max-width: 62.5rem; */
     margin: 0 auto;
     margin-bottom: 0;
   }
