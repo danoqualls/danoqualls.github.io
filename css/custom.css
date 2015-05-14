@@ -143,4 +143,9 @@ section {
 .title-name {
   color: white;
   font-size: 1.75em;
+  text-transform: uppercase;
+}
+
+.nav-links {
+  color: white;
 }

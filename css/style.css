@@ -65,13 +65,17 @@ p {
 /* line 61, ../scss/style.scss */
 .top-bar .top-bar-section ul li a:not(.button):hover {
   background: none;
-  border-bottom: 2px solid #ef4523;
+/* custom:  border-bottom: 2px solid #ef4523; */
+  border-bottom: 2px solid #ee2e24;
+
   color: #222;
 }
 /* line 67, ../scss/style.scss */
 .top-bar .top-bar-section ul li.active a:not(.button) {
-  border-bottom: 2px solid #ef4523;
-  color: #222;
+/* custom:  border-bottom: 2px solid #ef4523; */
+  border-bottom: 2px solid #ee2e24;
+
+/* custom:  color: #222; */
 }
 /* line 70, ../scss/style.scss */
 .top-bar .top-bar-section ul li.active a:not(.button):hover {
@@ -83,7 +87,7 @@ p {
 }
 /* line 76, ../scss/style.scss */
 .top-bar .top-bar-section ul li a {
-  color: #888;
+/* custom:  color: #888; */
 }
 /* line 82, ../scss/style.scss */
 .top-bar .top-bar-section ul li:hover:not(.has-form) > a {

@@ -5759,7 +5759,8 @@ meta.foundation-mq-topbar {
 /* line 109, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .contain-to-grid {
   width: 100%;
-  background: #333333;
+/* custom:  background: #333333; */
+  background: black;
 }
 /* line 113, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .contain-to-grid .top-bar {
