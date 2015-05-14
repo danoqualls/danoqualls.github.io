@@ -5844,7 +5844,7 @@ meta.foundation-mq-topbar {
 /* line 185, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar .name h1 {
   line-height: 45px;
-  font-size: 1.0625rem;
+  /* custom: font-size: 1.0625rem; */
   margin: 0;
 }
 /* line 189, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */

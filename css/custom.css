@@ -139,3 +139,8 @@ section {
 .pad {
   padding: 0px 5px 0px 5px;
 }
+
+.title-name {
+  color: white;
+  font-size: 1.75em;
+}
