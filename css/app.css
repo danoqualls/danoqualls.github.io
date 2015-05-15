@@ -5908,7 +5908,7 @@ meta.foundation-mq-topbar {
 }
 /* line 257, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .title-area {
-  background: #333333;
+ custom:  background: #333333; 
 }
 /* line 260, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .toggle-topbar a {

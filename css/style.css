@@ -73,8 +73,8 @@ p {
 /* line 67, ../scss/style.scss */
 .top-bar .top-bar-section ul li.active a:not(.button) {
 /* custom:  border-bottom: 2px solid #ef4523; */
-  border-bottom: 2px solid #ee2e24;
-
+  border-bottom: 2px solid #ee2e24; 
+}
 /* custom:  color: #222; */
 }
 /* line 70, ../scss/style.scss */
@@ -189,7 +189,7 @@ p {
   }
   /* line 179, ../scss/style.scss */
   .top-bar .toggle-topbar.menu-icon a:after {
-    box-shadow: 0 10px 0 1px #222, 0 16px 0 1px #222, 0 22px 0 1px #222;
+/* custom:    box-shadow: 0 10px 0 1px #222, 0 16px 0 1px #222, 0 22px 0 1px #222; */
   }
   /* line 184, ../scss/style.scss */
   .top-bar ul.title-area img {
@@ -220,13 +220,14 @@ p {
   /* line 205, ../scss/style.scss */
   .top-bar .top-bar-section ul li:not(.has-form) a:not(.button):hover {
     background: #ef4523;
-    color: #fff;
+  /* custom:  color: #fff; */
+    color: gray;
     margin-top: 0;
   }
   /* line 212, ../scss/style.scss */
   .top-bar .top-bar-section ul li.active:not(.has-form) a:not(.button) {
 /* custom:    background: #ef4523; */
-    color: #fff;
+    color: #fff; 
     padding: 10px 15px;
     margin-top: 0;
   }
