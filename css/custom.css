@@ -1,5 +1,5 @@
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Lato", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 p {
   font-family: "Raleway", serif;
@@ -9,11 +9,8 @@ p {
   font-style: normal;
   color: #1f1f1f;
 }
-nav {
-  font-family: "Lato", sans-serif;
-}
 .nav-links {
-  font-family: "Lato", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 .nav-links-active {
   color: gray;
@@ -42,13 +39,13 @@ section {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/clouds.jpg);
 }
 .ux-design {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/1.jpg);
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/clouds.jpg);
 }
 .coding {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/coding.jpg);
 }
 .writing {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/1.jpg);
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/clouds.jpg);
 }
 .wrapper {
   width: 100%;
@@ -65,6 +62,7 @@ section {
 .wrapper-text {
   text-align: center;
   vertical-align: middle;
+  letter-spacing: 0.1em;
 }
 .darken {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/1.jpg");
@@ -92,6 +90,7 @@ section {
 }
 .preview-header {
   text-align: center;
+  margin-bottom: 30px;
 }
 .preview-section {
   margin-bottom: 100px;
@@ -111,7 +110,7 @@ section {
   letter-spacing: 0.1em;
 }
 .top-bar-section ul li > a {
-  letter-spacing: 0.1em;
+  letter-spacing: 0.15em;
   font-size: 0.75em;
 }
 .top-bar ul li a:hover {
@@ -135,7 +134,8 @@ section {
 }
 .title-name {
   color: white;
-  font-size: 1.75em;
+  font-size: 1.5em;
   text-transform: uppercase;
   padding-left: 20px;
+  letter-spacing: 0.15em;
 }
